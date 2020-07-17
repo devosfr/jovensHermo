@@ -1,0 +1,47 @@
+How To Use
+
+Step 1: Download Lytebox
+
+Step 2:  Make sure that you have a DOCTYPE declaration. The DOCTYPE declaration should be the very first thing in an HTML document, before the <html> tag. I recommend using the following:
+
+<!DOCTYPE HTML>
+
+Step 3:  Add the following lines to the <head> section of your HTML document:
+
+<script type="text/javascript" language="javascript" src="lytebox.js"></script>
+<link rel="stylesheet" href="lytebox.css" type="text/css" media="screen" />
+
+Step 4:  Activate Lytebox content by using class="lytebox". See the examples below.
+
+    Single Image Example:
+
+<a href="images/image-1.jpg" class="lytebox" data-title="My Title">Image #1</a>
+
+    Grouped Images Example:
+
+<a href="images/image-1.jpg" class="lytebox"
+   data-lyte-options="group:vacation" data-title="Mom and Dad">Mom and Dad</a>
+<a href="images/image-2.jpg" class="lytebox" 
+   data-lyte-options="group:vacation" data-title="My Sister">My Sister</a>
+
+    Slideshow Example:
+
+<a href="images/image-1.jpg" class="lytebox" 
+   data-lyte-options="slide:true group:vacation" data-title="Mom and Dad">Mom and Dad</a>
+<a href="images/image-2.jpg" class="lytebox" 
+   data-lyte-options="slide:true group:vacation" data-title="My Sister">My Sister</a>
+
+    HTML Content and Embedded Media:
+
+<a href="http://www.google.com" class="lytebox" data-title="Search Google" 
+   data-lyte-options="width:400 height:300 scrollbars:no">Google Search</a>
+        
+<a href="catalog1.htm" class="lytebox" 
+   data-lyte-options="group:catalogs" data-title="Summer Catalog">Summer Catalog</a>
+<a href="catalog1.htm" class="lytebox" 
+   data-lyte-options="group:catalogs" data-title="Winter Catalog">Winter Catalog</a>
+        
+<a href="brochure.pdf" class="lytebox" data-title="My PDF Brochure">My PDF Brochure</a>
+        
+<a href="http://www.youtube.com/embed/ajNC3W-Dlqk" 
+   class="lytebox" data-lyte-options="width:560 height:349">YouTube</a>

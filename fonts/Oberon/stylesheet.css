@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Oberon LET';
+    src: url('OberonLetPlain.eot');
+    src: url('OberonLetPlain.eot?#iefix') format('embedded-opentype'),
+        url('OberonLetPlain.woff2') format('woff2'),
+        url('OberonLetPlain.woff') format('woff'),
+        url('OberonLetPlain.ttf') format('truetype'),
+        url('OberonLetPlain.svg#OberonLetPlain') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
